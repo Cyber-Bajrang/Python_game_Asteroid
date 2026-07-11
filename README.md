@@ -24,7 +24,9 @@ pip install pygame==2.6.1
 
 ## Run
 
-bash<span data-diff-end="27"></span> <span data-diff-start="28"></span>python main.py<span data-diff-end="28"></span> <span data-diff-start="29"></span>
+'''
+bash python main.py
+'''
 
 ## Project Structure
 
@@ -44,3 +46,8 @@ bash<span data-diff-end="27"></span> <span data-diff-start="28"></span>python ma
 ![Status: Work in Progress](https://img.shields.io/badge/Status-Work_in_Progress-orange)
 
 This is a Python game built with Pygame...
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
