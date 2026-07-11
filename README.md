@@ -14,7 +14,13 @@ bash<span data-diff-end="13"></span> <span data-diff-start="14"></span>uv sync<s
 
 ### Option 2: Using pip
 
-bash<span data-diff-end="19"></span> <span data-diff-start="20"></span>python -m venv .venv<span data-diff-end="20"></span> <span data-diff-start="21"></span>source .venv/bin/activate<span data-diff-end="21"></span> <span data-diff-start="22"></span>pip install pygame==2.6.1<span data-diff-end="22"></span> <span data-diff-start="23"></span>
+To run this project, open your terminal and set up the virtual environment:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install pygame==2.6.1
+```
 
 ## Run
 
@@ -26,8 +32,15 @@ bash<span data-diff-end="27"></span> <span data-diff-start="28"></span>python ma
 - player.py – player ship drawing logic 
 - circleshape.py – base sprite class 
 - constants.py – screen and player constants 
-
+- logger.py – simple JSONL state/event logging
 
 ## Notes
 
 - Make sure Player(...) is created once before the game loop in main.py. - tempCodeRunnerFile.py is a scratch file and can be removed.
+
+
+# My Awesome Game
+
+![Status: Work in Progress](https://img.shields.io/badge/Status-Work_in_Progress-orange)
+
+This is a Python game built with Pygame...
