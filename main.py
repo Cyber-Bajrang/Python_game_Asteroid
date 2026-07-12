@@ -10,6 +10,7 @@ def main():
 
     print(f"Starting Asteroids with pygame version: {pygame.version.ver}")
     print(f"Screen width: {SCREEN_WIDTH} \nScreen height: {SCREEN_HEIGHT}")
+    player = Player(x = SCREEN_WIDTH / 2, y = SCREEN_HEIGHT / 2)
     while True:
             log_state()
             for event in pygame.event.get():
@@ -17,13 +18,16 @@ def main():
                 if event.type == pygame.QUIT:
                     return
             screen.fill("black")
-            player = Player(x = SCREEN_WIDTH / 2, y = SCREEN_HEIGHT / 2)
-            player.draw(screen)
+            
+            
+            player.draw(screen)     
+            player.update(dt)
+            
             
 
 
 
-
+            #This will always be the last line of the main loop.
             pygame.display.flip()
             
             dt = clock.tick(60) / 1000
