@@ -25,7 +25,7 @@ pip install pygame==2.6.1
 ## Run
 
 ```
-python main.py
+uv run python main.py
 ```
 
 ## Project Structure
